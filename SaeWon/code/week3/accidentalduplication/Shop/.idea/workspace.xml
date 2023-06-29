@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="99a4d42d-d348-4cd3-8bcc-f302468d911e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp/application/ShopCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp/application/ShopService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp/domain/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp/domain/ShopRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp/presentation/ShopController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp/presentation/ShopRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp/presentation/ShopResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/createusecase/application/ShopCreateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/createusecase/domain/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/createusecase/domain/ShopRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/createusecase/presentation/ShopCreateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/createusecase/presentation/ShopCreateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/readusecase/application/ShopReadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/readusecase/domain/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/readusecase/domain/ShopRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/readusecase/presentation/ShopReadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/readusecase/presentation/ShopResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/updateusecase/application/ShopUpdateCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/updateusecase/application/ShopUpdateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/updateusecase/domain/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/updateusecase/domain/ShopRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/updateusecase/presentation/ShopUpdateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/updateusecase/presentation/ShopUpdateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../baemin-catalog/src/main/java/me/study/baemincatalog/application/CatalogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../adp-example-ban-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../adp-example-ban-service/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../adp-example-ban-service/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../adp-example-ban-service/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../adp-example-ban-service/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../adp-example-ban-service/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../adp-example-ban-service/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../adp-example-ban-service/src/main/java/com/example/adpexamplebanservice/AdpExampleBanServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../adp-example-ban-service/src/main/java/com/example/adpexamplebanservice/authorizer/Accessible.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../adp-example-ban-service/src/main/java/com/example/adpexamplebanservice/authorizer/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../adp-example-ban-service/src/main/java/com/example/adpexamplebanservice/authorizer/NotRequiredLoginCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../adp-example-ban-service/src/main/java/com/example/adpexamplebanservice/authorizer/Permissions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../adp-example-ban-service/src/main/java/com/example/adpexamplebanservice/authorizer/SessionConst.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../adp-example-ban-service/src/main/java/com/example/adpexamplebanservice/authorizer/SessionLoginMemberIdArgumentResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../adp-example-ban-service/src/main/java/com/example/adpexamplebanservice/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../adp-example-ban-service/src/main/java/com/example/adpexamplebanservice/interactor/AuthorizedUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../adp-example-ban-service/src/main/java/com/example/adpexamplebanservice/interactor/LoginCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../adp-example-ban-service/src/main/java/com/example/adpexamplebanservice/interactor/LoginService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../adp-example-ban-service/src/main/java/com/example/adpexamplebanservice/interactor/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../adp-example-ban-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../adp-example-ban-service/src/test/java/com/example/adpexamplebanservice/AdpExampleBanServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../componantprinciple/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../componantprinciple/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../componantprinciple/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../componantprinciple/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../componantprinciple/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../componantprinciple/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../componantprinciple/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../componantprinciple/src/main/java/com/example/componantprinciple/ComponantprincipleApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../componantprinciple/src/main/java/com/example/componantprinciple/application1st/MeetingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../componantprinciple/src/main/java/com/example/componantprinciple/application2nd/MeetingManagerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../componantprinciple/src/main/java/com/example/componantprinciple/application2nd/MeetingRequestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../componantprinciple/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../componantprinciple/src/test/java/com/example/componantprinciple/ComponantprincipleApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../encapsulation-makes-autonomy/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../encapsulation-makes-autonomy/encapsulatedapp1st/application/DomainModelPromotionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../encapsulation-makes-autonomy/encapsulatedapp1st/domain/CopangMan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../encapsulation-makes-autonomy/encapsulatedapp1st/domain/PerformanceAssessment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../encapsulation-makes-autonomy/encapsulatedapp1st/domain/PromotionPolicy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../encapsulation-makes-autonomy/encapsulatedapp2nd/application/DomainModelPromotionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../encapsulation-makes-autonomy/encapsulatedapp2nd/domain/CopangMan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../encapsulation-makes-autonomy/encapsulatedapp2nd/domain/PerformanceAssessment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../encapsulation-makes-autonomy/encapsulatedapp2nd/domain/PromotionCondition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../encapsulation-makes-autonomy/encapsulatedapp2nd/domain/PromotionPolicy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../encapsulation-makes-autonomy/encapsulatedapp2nd/domain/condition/CampPromotionCondition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../encapsulation-makes-autonomy/encapsulatedapp2nd/domain/condition/MaxShippingVolumePromotionCondition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../encapsulation-makes-autonomy/encapsulatedapp2nd/domain/condition/ReviewDurationPromotionCondition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../encapsulation-makes-autonomy/encapsulatedapp2nd/domain/condition/TenurePromotionCondition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../encapsulation-makes-autonomy/notencapsulatedapp/TransactionScriptPromotionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../encapsulation-makes-autonomy/out/production/encapsulation-makes-autonomy/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../encapsulation-makes-autonomy/out/production/encapsulation-makes-autonomy/CopangMan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../encapsulation-makes-autonomy/out/production/encapsulation-makes-autonomy/DomainModelScheduleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../encapsulation-makes-autonomy/out/production/encapsulation-makes-autonomy/PerformanceAssessment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../encapsulation-makes-autonomy/out/production/encapsulation-makes-autonomy/PromotionCondition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../encapsulation-makes-autonomy/out/production/encapsulation-makes-autonomy/TransactionScriptPromotionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../summary/04 컴포넌트원칙/12장 컴포넌트.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../summary/04 컴포넌트원칙/12장 컴포넌트.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../summary/04 컴포넌트원칙/13장 컴포넌트 응집도.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../summary/04 컴포넌트원칙/13장 컴포넌트 응집도.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../summary/04 컴포넌트원칙/14장 컴포넌트 결합.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../summary/04 컴포넌트원칙/14장 컴포넌트 결합.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../summary/05 아키텍처/15장 아키텍처.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../summary/05 아키텍처/15장 아키텍처.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../summary/05 아키텍처/image/15장 아키텍처/image-20230622180052802.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2RrdOB1RRGien2BrQxQTalgF9Ut" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/sewon/dev/study/clean-architecture/share/SaeWon/code/week3/accidentalduplication/Shop/accidentalduplicatedshopapp2/readusecase/application",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/accidentalduplicatedshopapp2/readusecase/application" />
+      <recent name="$PROJECT_DIR$/accidentalduplicatedshopapp2/updateusecase/application" />
+      <recent name="$PROJECT_DIR$/accidentalduplicatedshopapp2/readusecase/presentation" />
+      <recent name="$PROJECT_DIR$/accidentalduplicatedshopapp2/updateusecase/presentation" />
+      <recent name="$PROJECT_DIR$/accidentalduplicatedshopapp2/createusecase/presentation" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="accidentalduplicatedshopapp2.updateusecase.application" />
+      <recent name="accidentalduplicatedshopapp2.createusecase.application" />
+      <recent name="accidentalduplicatedshopapp2.updateusecase.domain" />
+      <recent name="accidentalduplicatedshopapp2.readusecase.domain" />
+      <recent name="accidentalduplicatedshopapp2.createusecase.domain" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99a4d42d-d348-4cd3-8bcc-f302468d911e" name="Changes" comment="" />
+      <created>1688012100079</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688012100079</updated>
+      <workItem from="1688012101269" duration="16792000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
