@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="99a4d42d-d348-4cd3-8bcc-f302468d911e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../baemin-catalog/src/main/java/me/study/baemincatalog/application/CatalogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accidentalduplicatedshopapp/application/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp/application/ShopService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accidentalduplicatedshopapp/domain/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp/domain/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accidentalduplicatedshopapp/domain/ShopRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp/domain/ShopRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accidentalduplicatedshopapp/presentation/ShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp/presentation/ShopController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accidentalduplicatedshopapp2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accidentalduplicatedshopapp2/createusecase/application/ShopCreateCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/createusecase/application/ShopCreateCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accidentalduplicatedshopapp2/createusecase/application/ShopCreateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/createusecase/application/ShopCreateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accidentalduplicatedshopapp2/createusecase/domain/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/createusecase/domain/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accidentalduplicatedshopapp2/createusecase/domain/ShopRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/createusecase/domain/ShopRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accidentalduplicatedshopapp2/createusecase/presentation/ShopCreateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/createusecase/presentation/ShopCreateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accidentalduplicatedshopapp2/readusecase/application/ShopReadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/readusecase/application/ShopReadService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accidentalduplicatedshopapp2/readusecase/domain/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/readusecase/domain/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accidentalduplicatedshopapp2/readusecase/domain/ShopRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/readusecase/domain/ShopRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accidentalduplicatedshopapp2/readusecase/presentation/ShopReadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/readusecase/presentation/ShopReadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accidentalduplicatedshopapp2/readusecase/presentation/ShopResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/readusecase/presentation/ShopReadResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accidentalduplicatedshopapp2/updateusecase/application/ShopUpdateCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/updateusecase/application/ShopUpdateCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accidentalduplicatedshopapp2/updateusecase/application/ShopUpdateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/updateusecase/application/ShopUpdateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accidentalduplicatedshopapp2/updateusecase/domain/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/updateusecase/domain/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accidentalduplicatedshopapp2/updateusecase/domain/ShopRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/updateusecase/domain/ShopRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accidentalduplicatedshopapp2/updateusecase/presentation/ShopUpdateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/accidentalduplicatedshopapp2/updateusecase/presentation/ShopUpdateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../summary/05 아키텍처/image/15장 아키텍처/image-20230622180052802.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2RrdOB1RRGien2BrQxQTalgF9Ut" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/sewon/dev/study/clean-architecture/share/SaeWon/code/week3/accidentalduplication/Shop/accidentalduplicatedshopapp2/readusecase/application",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/accidentalduplicatedshopapp2/readusecase/application" />
+      <recent name="$PROJECT_DIR$/accidentalduplicatedshopapp2/updateusecase/application" />
+      <recent name="$PROJECT_DIR$/accidentalduplicatedshopapp2/readusecase/presentation" />
+      <recent name="$PROJECT_DIR$/accidentalduplicatedshopapp2/updateusecase/presentation" />
+      <recent name="$PROJECT_DIR$/accidentalduplicatedshopapp2/createusecase/presentation" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="accidentalduplicatedshopapp2.updateusecase.application" />
+      <recent name="accidentalduplicatedshopapp2.createusecase.application" />
+      <recent name="accidentalduplicatedshopapp2.updateusecase.domain" />
+      <recent name="accidentalduplicatedshopapp2.readusecase.domain" />
+      <recent name="accidentalduplicatedshopapp2.createusecase.domain" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99a4d42d-d348-4cd3-8bcc-f302468d911e" name="Changes" comment="" />
+      <created>1688012100079</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688012100079</updated>
+      <workItem from="1688012101269" duration="27432000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
