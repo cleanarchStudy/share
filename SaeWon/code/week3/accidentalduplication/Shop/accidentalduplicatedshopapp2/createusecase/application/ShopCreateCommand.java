@@ -1,6 +1,6 @@
 package accidentalduplicatedshopapp2.createusecase.application;
 
-import accidentalduplicatedshopapp.domain.Shop;
+import accidentalduplicatedshopapp2.createusecase.domain.Shop;
 import accidentalduplicatedshopapp2.createusecase.presentation.ShopCreateRequest;
 
 /**

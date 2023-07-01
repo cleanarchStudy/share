@@ -1,34 +1,32 @@
 package accidentalduplicatedshopapp.presentation;
 
+import accidentalduplicatedshopapp.application.ShopCommand;
 import accidentalduplicatedshopapp.application.ShopService;
 
-@Controller
-@RequestMapping("/shops")
 public class ShopController {
 
     private final ShopService service;
 
-    @Autowired
     public ShopController(ShopService service) {
         this.service = service;
     }
 
-    @GetMapping(value="/{shopId}")
-    public ResponseEntity<ShopResponse> getShop(@PathVariable("shopId") String shopId){
-        ShopResponse response = service.show(shopId);
-        return new ResponseEntity<>(response, HttpStatus.OK);
+    // GetMapping(value="/{shopId}")
+    public ShopResponse getShop(String shopIdOnPathVariable){
+       return service.show(shopIdOnPathVariable);
     }
 
-    @PostMapping
-    public ResponseEntity<Long> createShop(@RequestBody ShopRequest shop){
+    // PostMapping
+    public Long createShop(ShopCommand shop){
         Long response = service.register(shop);
-        return new ResponseEntity<>(response, HttpStatus.CREATE);
+        return response;
     }
 
-    @PutMapping(value="/{shopId}")
-    public ResponseEntity<Long> updateShop(@RequestBody ShopRequest shop, @PathVariable("shopId") String shopId){
-        Long response = service.update(shop, shopId);
-        return new ResponseEntity<>(response, HttpStatus.OK);
+    // PutMapping(value="/{shopId}")
+    public Long updateShop(ShopRequest shop, String shopIdOnPath){
+        ShopCommand command = ShopCommand.from(shop);
+        Long response = service.update(command, shopIdOnPath);
+        return response;
     }
 
 }

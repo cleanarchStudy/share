@@ -2,19 +2,13 @@ package accidentalduplicatedshopapp2.createusecase.domain;
 
 import accidentalduplicatedshopapp.application.ShopCommand;
 
-@Entity
 public class Shop {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "shop_id")
     private Long id;
     private String shopName;
     private String address;
-    @Lob
     private String description;
 
-    @Builder
     public Shop(String shopName, String address, String description) {
         this.shopName = shopName;
         this.address = address;

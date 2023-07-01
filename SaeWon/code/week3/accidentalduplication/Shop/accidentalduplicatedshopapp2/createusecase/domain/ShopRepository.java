@@ -1,7 +1,7 @@
 package accidentalduplicatedshopapp2.createusecase.domain;
 
-import accidentalduplicatedshopapp.domain.Shop;
+public interface ShopRepository {
 
-public interface ShopRepository extends JpaRepository<Shop, Long> {
 
+    Shop save(Shop shop);
 }

@@ -1,7 +1,10 @@
 package accidentalduplicatedshopapp2.readusecase.domain;
 
-import accidentalduplicatedshopapp.domain.Shop;
+import accidentalduplicatedshopapp2.readusecase.domain.Shop;
 
-public interface ShopRepository extends JpaRepository<Shop, Long> {
+import java.util.Optional;
 
+public interface ShopRepository{
+
+    Optional<Shop> findById(String shopId);
 }

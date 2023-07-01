@@ -1,7 +1,16 @@
 package accidentalduplicatedshopapp.domain;
 
+import accidentalduplicatedshopapp.application.ShopCommand;
 import accidentalduplicatedshopapp.domain.Shop;
 
-public interface ShopRepository extends JpaRepository<Shop, Long> {
+import java.util.Map;
+import java.util.Optional;
+
+public interface ShopRepository{
+
+    Shop save(ShopCommand shop);
+
+    Optional<Shop> findById(String shopId);
+
 
 }

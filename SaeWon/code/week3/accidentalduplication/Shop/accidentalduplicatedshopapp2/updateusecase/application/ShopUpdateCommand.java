@@ -1,7 +1,7 @@
 package accidentalduplicatedshopapp2.updateusecase.application;
 
 
-import accidentalduplicatedshopapp2.readusecase.domain.Shop;
+import accidentalduplicatedshopapp2.updateusecase.domain.Shop;
 import accidentalduplicatedshopapp2.updateusecase.presentation.ShopUpdateRequest;
 
 /**
