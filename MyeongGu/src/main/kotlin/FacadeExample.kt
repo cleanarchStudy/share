@@ -12,7 +12,7 @@ class Client(
     }
 }
 
-//  client -> facade -> login, logout Service
+// client -> facade -> login, logout Service
 // client 가 모든 서비스 클래스에 대해 추이 종속성을 가지게 된다.
 
 class Facade(
