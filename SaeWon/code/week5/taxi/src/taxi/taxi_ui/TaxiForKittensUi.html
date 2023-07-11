@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>택시 호출하기</title>
+</head>
+<body>
+  <div id="taxi-list"></div>
+
+</body>
+
+<script>
+  document.addEventListener('DOMContentLoaded',()=> findTaxis());
+
+  async function findTaxis() {
+    const response = await fetch('http://localhost:8080/api/taxi-for-kittens-find-service/taxis');
+    const data = await response.json();
+
+    const taxiBoard = document.getElementById("taxi-list");
+    let boardView = '<div>택시번호  도착시간  고급여부</div>';
+    data.forEach(taxi => {
+        const {taxiId, arrivalTime, isVip} = taxi;
+        boardView += `<div>${taxiId}  ${arrivalTime}  ${isVip? 'Yes':'No'}
+                     <button onclick="dispatchTaxi(${taxiId})">호출하기</button></div>`;
+    });
+
+    taxiBoard.innerHTML = boardView;
+  }
+
+  async function dispatchTaxi(taxiId){
+    const response = await fetch('http://localhost:8080/api/taxi-for-kittens-select-service/taxis', {
+        method: 'POST',
+        body: {taxiId: taxiId},
+    });
+    if(response.ok) {
+      alert('택시를 호출했어요. 잠시만 기다려주세요.');
+    } else {
+      alert('택시를 다시 선택해주세요.');
+    }
+  }
+</script>
+</html>
+
