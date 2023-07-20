@@ -3,12 +3,10 @@ package com.example.removeframeworkfromservice.application;
 
 import com.example.removeframeworkfromservice.domain.Foo;
 
-// 흔하게 사용되는 Service객체의 형태지만, springframework가 결합되어있음.
-import org.springframework.stereotype.Service;
+// Trasactional annotation을 프록시에 적용하더라도, 참조하고있는 부모객체에 Transactional이 없으면 트랜잭션이 전파되지 않아 Transaction제거가 불가능
 import org.springframework.transaction.annotation.Transactional;
 
 @Transactional
-@Service
 public class FooService {
 
     private final FooRepository repository;
